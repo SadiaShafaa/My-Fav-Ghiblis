@@ -71,11 +71,11 @@ const Whisper = () => {
     <section className='wisperS p-0 m-0 h-dvh' ref={Wref}>
       <div className='relative flex justify-center content-center h-full'>
         <img ref={cityref}
-        src="/city.png"
+        src="./city.png"
         className='absolute  border-l-8 border-r-8'/>
 
         <img ref={wisperref}
-        src="/wisper.png"
+        src="./wisper.png"
         className='absolute translate-y-48'/>
         <div className='absolute bottom-0 left-0 right-0 flex justify-center -translate-y-36'>
            <button

@@ -122,20 +122,20 @@ const Howl = () => {
     <section className='howlS h-screen p-0 m-0' ref={Href}>
       <div className="relative h-screen flex justify-center items-center">
       <img ref={cloudUref}
-       src="/cloud2.png"
+       src="./cloud2.png"
        className='absolute -translate-y-2/4 w-fit' 
        />
        <img ref={bgref}
-       src="/bg.png"
+       src="./bg.png"
        className='translate-y-20 w-fit border-l-8 border-r-8' 
        />
        <img ref={howlsophieref}
-        src="/sophiehowl.png"
+        src="./sophiehowl.png"
         className="absolute h-auto w-auto translate-y-8 2xl:-translate-y-1"
        />
        
        <img ref={cloudBref}
-       src="/cloud3.png"
+       src="./cloud3.png"
        className='absolute flex w-full translate-y-20  2xl:h-fit 2xl:-translate-y-1/3' 
        />
        <div className='absolute bottom-0 left-0 right-0 flex justify-center -translate-y-48 2xl:-translate-y-36'>

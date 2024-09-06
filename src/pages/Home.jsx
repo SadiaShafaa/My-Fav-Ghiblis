@@ -127,7 +127,7 @@ const Home = () => {
         <video
         ref={vid1ref}
           className="h-full w-1/3 object-cover border-r-[3px]"
-          src="/Spirited Away.mp4" 
+          src="./Spirited Away.mp4" 
           autoPlay
           loop
           muted
@@ -136,7 +136,7 @@ const Home = () => {
         <video
         ref={vid2ref}
           className="h-full w-1/3 object-cover border-l-[3px] border-r-[3px]"
-          src="/totoro.mp4" 
+          src="./totoro.mp4" 
           autoPlay
           loop
           muted
@@ -145,7 +145,7 @@ const Home = () => {
         <video
         ref={vid3ref}
           className="h-full w-1/3 object-cover border-l-[3px]"
-          src="/MovingCastle.mp4"
+          src="./MovingCastle.mp4"
           autoPlay
           loop
           muted

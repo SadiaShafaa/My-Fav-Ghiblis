@@ -111,9 +111,9 @@ const Ponyo = () => {
       <div className="w-1/2 h-screen flex justify-center items-center">
       <img 
       ref={ponyoRef}
-        src="/ponyo.png"
+        src="./ponyo.png"
        className='absolute border-white'/>
-       <audio src="/wind.mp3" ref={audioRef} />
+       <audio src="./wind.mp3" ref={audioRef} />
       </div>
     </section>
   )
